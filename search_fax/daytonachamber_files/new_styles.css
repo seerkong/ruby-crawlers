@@ -1,0 +1,17 @@
+div.indv_bg1{
+	
+	background:transparent url(images/book_your_stay_background.png) no-repeat ;float:left;
+	padding:73px 0px 16px 0px;
+	width:211px;
+	margin-left:31px;
+	margin-top:7px;
+}
+
+div.indv_bg1 div{
+	overflow:hidden;
+}
+.left_top{
+
+width:245px; float:left;
+background:url(top_left.jpg) no-repeat ;
+}

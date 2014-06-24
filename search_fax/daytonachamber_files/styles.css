@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** RESETS ***/
+/** {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+tbody, tfoot, thead, tr, th, td {
+	border:0;}
+
+
+
+html,body {
+	height:100%;
+	min-height:100%;
+	}
+
+body {
+	background:url(images/2009design/bg_sand_lines.jpg) repeat;
+	}
+
+div#wrap1 {
+	height:auto!important;
+	height:100%;
+	min-height:100%;
+	background:url(images/2009design/beach_bg_lines.jpg) repeat-x top center;
+	text-align:center;
+	}
+div#wrap2 {
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	}
+	
+div#visitorCenter {
+	width:1000px;
+	height:65px;
+	background:url(images/2009design/visitorcenter.jpg) no-repeat top center;
+	overflow:hidden;
+	}
+	
+div#header {
+	width:1000px;
+	height:100px;
+	background:url(images/2009design/logo.jpg) no-repeat top left;
+	}
+#header h1 {
+	text-indent:-9999px;
+	}
+#header h1, #header h1 a {
+	display:block;
+	width:555px;
+	height:100px;
+	}
+#header h2 {
+	display:none;
+	}
+	
+div#homeFlash {
+	width:520px;
+	height:264px;
+	padding:0 0 0 1px;
+	/*background:url(images/2009design/flash_placer.jpg) no-repeat;*/}
+div#homeButtons {
+	width:521px;
+	height:101px;
+	/*background:url(images/2009design/buttons_placer.jpg) no-repeat;*/}
+div#homeContent {
+	width:461px;
+	/*width:521px;*/
+	/*background:url(images/2009design/homecontent_top.jpg) no-repeat top;*/
+	padding:0 30px 0 30px;}
+	
+div#mainEnd {
+	width:1000px;
+	height:52px;
+	background:url(images/2009design/mainEnd_bg.jpg) no-repeat top;}
+div#twoColEnd {
+	width:1000px;
+	height:52px;
+	background:url(images/2009design/2ColEnd_bg.jpg) no-repeat top;}
+	
+div#homeBanners {
+	margin-top:40px;}
+	
+div#chinaButton {
+	height:160px;
+	margin:20px 0 0 15px;
+	width:178px;
+	}	
+
+
+div#main.home {
+	background:url(images/2009design/homeRepeat.jpg) repeat-y;
+	}
+div#mainSub {
+	background:url(images/2009design/subRepeat.jpg) repeat-y;
+	width:1000px;
+	}	
+
+
+div#leftCol {
+	width:200px;
+	/*width:245px;*/
+	padding:42px 0 0 45px;
+	float:left;
+	background:url(images/2009design/sidenav_bg.jpg) no-repeat top left;
+	}
+div#rightCol {
+	width:755px;
+	float:right;
+	background:url(images/2009design/rightCol_top.jpg) no-repeat top;
+	}
+div#rightColSub {
+	width:755px;
+	float:right;
+	background:url(images/2009design/subRight_edge.jpg) no-repeat top right;
+	/*overflow:hidden;*/
+	}
+
+
+div#leftInner {
+	float:left;
+	width:521px;
+	overflow:hidden;
+	}
+div#rightInner {
+	float:right;
+	width:234px;
+	overflow:hidden;
+	background:url(images/2009design/homeRight.jpg) no-repeat top right;
+	}
+div#subContent123 {
+	margin:10px 3px 10px 5px;}
+div#subContent {
+	/*margin:0px 45px 10px 20px;*/
+	margin-left: 20px;
+	width:690px;
+}
+#text {
+	margin:0px 2px 0 0;
+	width:688px;}
+	
+
+#text ul{
+	margin:0 0 0 1px;
+}
+#container-1{
+	/*font-size:75%;*/
+	width:680px;
+}
+
+
+
+/*** NAV ***/
+
+ul#nav, ul#nav ul {
+	list-style-type:none;
+	}
+ul#nav ul {
+	margin:0 0 0 20px;
+	}
+#nav li, #nav ul li {
+	text-indent:-9999px;
+	margin:0;
+	padding:0;
+	}
+ul#subList li {
+	display:block;
+	height:16px;}
+#nav a.firstlevel {
+	display:block;
+	width:173px;
+	margin-bottom:3px;
+	}
+#nav a.sublevel {
+	display:block;
+	width:160px;
+	}
+	
+
+#nav a.navHome {background:url(images/2009design/navHome.gif) no-repeat;}
+
+#nav a.navDaytona {background:url(images/2009design/navDaytonaBeach.gif) no-repeat;}
+#nav a.navDaytona:hover {background:url(images/2009design/navDaytonaBeach.gif) no-repeat;}
+#nav a.navVisitorCenter {background:url(images/2009design/navVisitorCenter.gif) no-repeat;}
+#nav a.navBooking {background:url(images/2009design/navBookingDaytona.gif) no-repeat;}
+#nav a.navRelocationInfo {background:url(images/2009design/navRelocationInfo.gif) no-repeat;}
+#nav a.navSearch {background:url(images/2009design/navSearch.gif) no-repeat;}
+#nav a.navCommunityInfo {background:url(images/2009design/navCommunityInfo.gif) no-repeat;}
+#nav a.navSiteSelectors {background:url(images/2009design/navSiteSelectors.gif) no-repeat;}
+#nav a.navCalendar {background:url(images/2009design/navCalendar.gif) no-repeat;}
+#nav a.navAreaAttractions {background:url(images/2009design/navAreaAttractions.gif) no-repeat;}
+
+#nav a.navChamber {background:url(images/2009design/navDaytonaBeachChamber.gif) no-repeat;}
+#nav a.navAboutChamber {background:url(images/2009design/navAboutChamber.gif) no-repeat;}
+#nav a.navHowToJoin {background:url(images/2009design/navHowToJoin.gif) no-repeat;}
+#nav a.navSearchMembers {background:url(images/2009design/navSearchMembers.gif) no-repeat;}
+#nav a.navBusinessDevelopment {background:url(images/2009design/navBusinessDevelopment.gif) no-repeat;}
+#nav a.navVCARD {background:url(images/2009design/navVCARD.gif) no-repeat;}
+#nav a.navGovRelations {background:url(images/2009design/navGovRelations.gif) no-repeat;}
+#nav a.navDaytonaSports {background:url(images/2009design/navDaytonaSports.gif) no-repeat;}
+#nav a.navYpg {background:url(images/2009design/navYpg.gif) no-repeat;}
+#nav a.navMotorsports {background:url(images/2009design/navMotorsports.gif) no-repeat;}
+#nav a.navBlog {background:url(images/2009design/navBlog.gif) no-repeat;}
+#nav a.navMembersArea {background:url(images/2009design/navMembersArea.gif) no-repeat;}
+
+#nav a.navEvents {background:url(images/2009design/navEvents.gif) no-repeat;}
+#nav a.navBikeWeek {background:url(images/2009design/navBikeWeek.gif) no-repeat;}
+#nav a.navBiketoberfest {background:url(images/2009design/navBiketoberfest.gif) no-repeat;}
+#nav a.navSpeedWeeks {background:url(images/2009design/navSpeedWeeks.gif) no-repeat;}
+	
+/*** END NAV***/
+	
+	
+
+	
+/*** SEARCH ***/
+
+div#homeSearch {
+	width:755px!important;
+	width:755px;
+	height:77px!important;
+	height:84px;
+	padding:7px 0px 0 0;
+	background:url(images/2009design/home_search_bg.jpg) no-repeat top;
+	overflow:hidden;}
+#homeSearch input#search {
+	width:253px;
+	height:25px!important;
+	height:27px;
+	border:1px solid #9a6709;
+	padding:5px 0 0 10px;
+	margin:10px 0 0 0;}
+	#homeSearch select#cat123 {
+	width:223px;
+	height:32px!important;
+	height:27px;
+	border:1px solid #9a6709;
+	padding:5px 0 0 5px;
+	margin:10px 0 0 0;}
+#homeSearch table input {
+	margin:10px 0 0 0;}
+#homeSearch p {
+	font-size:11px;
+	line-height:1.2em;
+	margin:5px 0 0 0;}
+#homeSearch a {
+	color:#948563;}
+
+/*** BOOKING ***/
+
+div#homeBooking {
+	width:190px;
+	margin:0 0 20px 16px;}
+
+/*** HOME CALENDARS ***/
+
+div#homeCalendarEvents {
+	width:190px;
+	margin:0 0 20px 16px;}
+table#calendarWrap {
+	border:1px solid #948563;}
+#calendarWrap a {
+	color:#897a58;}
+#calendarWrap td {
+	padding:2px;}
+
+
+/*** booking ***/
+table#bookinglist{
+	width:620px;
+	border:1px solid gray;
+}
+table#bookinglist td.logo{
+	padding:0px;
+	width:180px;
+	background-color:white;
+}
+		
+table#bookinglist td.desc{
+	padding:10px;
+	background-color:white;
+	text-align: left;
+}
+
+table#bookinglist td.desc h2{
+	font-size:15px;
+}
+		
+table#bookinglist td.booknow{
+	width:108px;
+	background-color:white;
+	padding:10px;
+}
+
+
+
+/*** TITLES ***/
+
+div#title {
+	width:755px;
+	height:86px;
+	background:url(images/2009design/rightColSub_top.jpg) no-repeat top left;
+	overflow:hidden;}
+div#title h2 {
+	display:block;
+	width:755px;
+	height:86px;
+	text-indent:-9999px;}
+h2#visitorCenter {
+	background:url(images/2009design/title_visitorCenter.gif) no-repeat top;}
+h2#experienceChina {
+	background:url(images/2009design/title_experienceChina.gif) no-repeat top;}
+
+
+
+
+/*** TYPO ***/
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	/*font-size:70%;*/
+}
+br.clear {
+	width:100%;
+	clear:both;
+	font-size:0;
+	line-height:0;}	
+p {
+	margin-bottom:10px;}
+table#homeStories {
+	width:461px;}
+table#homeStories td {
+	/*padding-bottom:5px;*/}
+h2#upcomingEvents {
+	display:block;
+	width:195px;
+	height:50px;
+	background:url(images/2009design/home_upcoming_events.jpg) no-repeat;
+	text-indent:-9999px;}
+td.gutter {
+	width:20px;}
+td.homeContentBox {
+	padding:0 20px;
+	background: url('/images/2009design/homestory_mid.gif');
+	background-repeat:repeat-y;
+}
+	
+a:link, a:visited, a:hover, a:active {
+	color:#9E8A65;}
+	
+
+
+
+#footerLinks{
+	text-align:center;
+	margin:10px 0 25px 0;
+	color:#504734;
+}
+
+#footerLinks a{
+	color:#fbf0d4;
+}
+
+.small{
+	font-size:10px;
+}

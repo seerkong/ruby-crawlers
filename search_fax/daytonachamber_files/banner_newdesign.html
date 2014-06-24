@@ -1,0 +1,273 @@
+
+<!-- saved from url=(0057)http://www.daytonachamber.com/member/banner_newdesign.cfm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Daytona Beach Business Center</title>
+
+
+<style type="text/css">
+			
+	p.zdroq
+	{
+		display:none;
+	}
+</style>
+
+
+<script language="JavaScript">
+<!-- Hide from old browsers
+
+// Number of banners that you have
+
+img_count = 5
+i =  img_count
+
+banner1 = new Image();
+banner1.src = "_admin/images/banner/atlanticoceanpalm9.jpg";
+
+banner2 = new Image();
+banner2.src = "_admin/images/banner/agave_chamber.jpg";
+
+banner3 = new Image();
+banner3.src = "_admin/images/banner/bw13_wyo.png";
+
+banner4 = new Image();
+banner4.src = "_admin/images/banner/akitikiinn09.jpg";
+
+banner5 = new Image();
+banner5.src = "_admin/images/banner/BIKERTOWING1.jpg";
+
+
+
+links = new Array
+
+links[1] = "banner_redirect.cfm?ban=2"
+
+links[2] = "banner_redirect.cfm?ban=41"
+
+links[3] = "banner_redirect.cfm?ban=37"
+
+links[4] = "banner_redirect.cfm?ban=11"
+
+links[5] = "banner_redirect.cfm?ban=44"
+
+
+description = new Array
+
+description[1] = "Atlantic Ocean Palm"
+
+description[2] = "Agave"
+
+description[3] = "Wyotech"
+
+description[4] = "Best Western Aku Tiki Inn"
+
+description[5] = "Emergency Biker Rescue"
+
+
+
+function randombanner(){
+	var randomnumber = Math.random();
+	i = Math.round( (i - 1) * randomnumber) + 1;
+	document.banner.src = eval("banner" + i + ".src");
+}
+
+function startTime(){
+
+        var time= new Date();
+        hours= time.getHours();
+        mins= time.getMinutes();
+        secs= time.getSeconds();
+        closeTime=hours*3600+mins*60+secs;
+        closeTime+=5;   
+        Timer();
+
+}
+
+function Timer(){
+        var time= new Date();
+        hours= time.getHours();
+        mins= time.getMinutes();
+        secs= time.getSeconds();
+        curTime=hours*3600+mins*60+secs
+        if (curTime>=closeTime){
+                if (i < img_count){
+                        i++;
+                        document.banner.src = eval("banner" + i + ".src");
+                }
+                else{
+                        i = 1;
+                        document.banner.src = eval("banner" + i + ".src");
+                }
+                startTime();
+        }
+        else{
+                window.setTimeout("Timer()",1000)}
+
+}
+
+function clickLink(){
+        //top.location = links[i]
+		window.open(links[i]) 
+}
+
+function descript(){
+        window.status = description[i]
+}
+
+// -->
+
+</script>
+
+
+
+
+<script language="JavaScript">
+<!-- Hide from old browsers
+
+// Number of banners that you have
+
+img_count2 = 3
+i2 =  img_count2
+
+banner21 = new Image();
+banner21.src = "/member/_admin/images/banner/bahamahouse9.jpg";
+
+banner22 = new Image();
+banner22.src = "/member/_admin/images/banner/2013hd.jpg";
+
+banner23 = new Image();
+banner23.src = "/member/_admin/images/banner/riverfrontparkroatingbanner.jpg";
+
+
+
+links2 = new Array
+
+links2[1] = "banner_redirect.cfm?ban=10"
+
+links2[2] = "banner_redirect.cfm?ban=38"
+
+links2[3] = "banner_redirect.cfm?ban=42"
+
+
+description2 = new Array
+
+description2[1] = "Bahama House"
+
+description2[2] = "HD Harley"
+
+description2[3] = "Print Art"
+
+
+function startTime2(){
+
+        var time2= new Date();
+        hours2= time2.getHours();
+        mins2= time2.getMinutes();
+        secs2= time2.getSeconds();
+        closeTime2=hours2*3600+mins2*60+secs2;
+        closeTime2+=4; 
+        Timer2();
+
+}
+
+
+function randombanner2(){
+	var randomnumber2 = Math.random();
+	i2 = Math.round( (i2 - 1) * randomnumber2) + 1;
+	document.banner2.src = eval("banner2" + i2 + ".src");
+}
+
+function Timer2(){
+        var time= new Date();
+        hours= time.getHours();
+        mins= time.getMinutes();
+        secs= time.getSeconds();
+        curTime2=hours*3600+mins*60+secs
+        if (curTime2>=closeTime2){
+                if (i2 < img_count2){
+                        i2++;
+                        document.banner2.src = eval("banner2" + i2 + ".src");
+                }
+                else{
+                        i2 = 1;
+                        document.banner2.src = eval("banner2" + i2 + ".src");
+                }
+                startTime2();
+        }
+        else{
+                window.setTimeout("Timer2()",1000)}
+				
+}
+
+function clickLink2(){
+        //top.location = links[i]
+		window.open(links2[i2]) 
+}
+
+function descript2(){
+        window.status = description2[i2]
+}
+
+// -->
+
+</script>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function openwin(url){
+window.open("http://" + url)
+}
+
+function ViewProfile(id){
+var win_width = 520
+var win_height = 400
+var loc_left = (screen.width/2) - (win_width/2)
+var loc_top = (screen.height/2) - (win_height/2)
+var url = "profile.cfm?id=" + id
+var name = "Profile"
+var style = "toolbar=no,scrollbars=yes,location=no,directories=no,resizable=no,copyhistory=no" +
+			"top=" + loc_top + ",left=" + loc_left +
+			",width=" + win_width + ",height=" + win_height			
+win = window.open(url,name,style)
+win.focus()
+}
+//-->
+</script>
+</head>
+<body onload="randombanner(); randombanner2(); startTime();startTime2();" text="#808080" vlink="#79a6b5" alink="#2f6e82" link="#2f6e82" bgcolor="#ffffff" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" background="leftside_sand.jpg">
+
+
+ <table width="181" border="0" cellspacing="0" cellpadding="0" align="left">
+  <tbody><tr>
+    <td align="left">
+  	  <p><a href="http://hilton.7eer.net/c/85384/120769/2497" target="_new"><img src="hilton09a.jpg" width="180" height="150" border="0"></a></p>
+  	  <p><a href="http://sunviking.com/" target="_new"><img src="sunvik09.jpg" width="180" height="150" border="0"></a></p>
+  	  <p><a href="http://wyndhamoceanwalk.com/chamber-annual-discount-special.aspx?utm_medium=referral-affiliate&utm_source=daytona-chamber&utm_campaign=daytona-chamber-annual-15-discount-ocean-walk&promoid=daytona-chamber-annual-discount&Identifier=DBChamber" target="_new"><img src="WOW180150.jpg" width="180" height="150" border="0"></a></p>
+<p><a href="" onclick="clickLink(); return false;" onmouseover="descript(); return true;" onmouseout="window.status=&#39;&#39;"><img src="agave_chamber.jpg" border="0" name="banner" alt="Click here to view profile">
+</a></p></td>
+  </tr>
+  
+  <tr>
+    <td align="left">
+	  	<a href="" onclick="clickLink2(); return false;" onmouseover="descript2(); return true;" onmouseout="window.status=&#39;&#39;">
+			<img src="bahamahouse9.jpg" border="0" name="banner2" alt="Click here to view profile">
+		</a>
+	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left">
+	  	<a href="http://www.daytonachamber.com/member/banner_newdesign.cfm#" onclick="javascript:window.open(&#39;banner_redirect.cfm?mem=2158&#39;);">
+	  		<img alt="" src="coralsands9.jpg" border="0">
+	  	</a>
+	</td>
+  </tr>
+</tbody></table> 
+
+
+</body></html>

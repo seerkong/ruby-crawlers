@@ -1,0 +1,46 @@
+﻿@import "screen.css";
+@import "cart.css";
+
+body
+{ color: #000; }
+
+/* hidden */
+
+#sub-navigation, ul#secondary-nav, #nav-bar, #scroller-wrapper
+{ display: none; }
+
+/* header */
+#logo
+{ position: relative; top: auto; left: auto; border: none; }
+
+#header
+{ margin: 0 0 10px 0; border: none; }
+
+/* section banner */
+#section-banner
+{ padding: 0 0 12px 0; background: none; width: 100%; height: auto; float: none; }
+
+#section-banner h2, #section-banner h3
+{ position: relative; top: auto; left: auto; padding: 0 0 10px 0; width: 100%; float: none; }
+
+#section-banner p
+{ width: 100%; }
+
+#section-banner img
+{ display: none; }
+
+/* main */
+#main, #main-content
+{ margin: 0; padding: 0; width: 100%; float: none; }
+
+.callout img
+{ display: none; }
+
+/* rfq table */
+
+table.cart_rfq, table.cart_rfq th, table.cart_rfq td, table.cart_rfq td.rfq_body
+{ border: none; } 
+
+/* footer */
+#footer
+{ border: none; padding: 0; }
